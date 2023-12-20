@@ -10,13 +10,13 @@ import Typography from '@mui/material/Typography'
 import PageHeader from 'src/@core/components/page-header'
 
 // ** Demo Components Imports
-import TableBasic from 'src/views/table/data-grid/TableBasic'
+//import TableBasic from 'src/views/table/data-grid/TableBasic'
 import TableFilter from 'src/views/table/data-grid/TableFilter'
-import TableColumns from 'src/views/table/data-grid/TableColumns'
-import TableEditable from 'src/views/table/data-grid/TableEditable'
-import TableBasicSort from 'src/views/table/data-grid/TableBasicSort'
-import TableSelection from 'src/views/table/data-grid/TableSelection'
-import TableServerSide from 'src/views/table/data-grid/TableServerSide'
+////import TableColumns from 'src/views/table/data-grid/TableColumns'
+//import TableEditable from 'src/views/table/data-grid/TableEditable'
+//import TableBasicSort from 'src/views/table/data-grid/TableBasicSort'
+//import TableSelection from 'src/views/table/data-grid/TableSelection'
+//import TableServerSide from 'src/views/table/data-grid/TableServerSide'
 
 const LinkStyled = styled(Link)(({ theme }) => ({
   textDecoration: 'none',
@@ -30,17 +30,17 @@ const DataGrid = () => {
         title={
           <Typography variant='h4'>
             <LinkStyled href='https://mui.com/x/react-data-grid/' target='_blank'>
-              Data Grid
+              Ventas
             </LinkStyled>
           </Typography>
         }
         subtitle={
           <Typography sx={{ color: 'text.secondary' }}>
-            Data Grid is a fast and extendable react data table and react data grid.
+            Modulo de ventas
           </Typography>
         }
       />
-      <Grid item xs={12}>
+      {/*<Grid item xs={12}>
         <TableBasic />
       </Grid>
       <Grid item xs={12}>
@@ -51,16 +51,16 @@ const DataGrid = () => {
       </Grid>
       <Grid item xs={12}>
         <TableBasicSort />
-      </Grid>
+      </Grid>*/}
       <Grid item xs={12}>
         <TableFilter />
       </Grid>
-      <Grid item xs={12}>
+      {/*<Grid item xs={12}>
         <TableSelection />
       </Grid>
       <Grid item xs={12}>
         <TableServerSide />
-      </Grid>
+    </Grid>*/}
     </Grid>
   )
 }
