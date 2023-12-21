@@ -141,7 +141,7 @@ const AppBarContent = (props: Props) => {
         ) : null}
         {auth.user && <Autocomplete hidden={hidden} settings={settings} />}
       </Box>
-      <Box className='actions-right' sx={{ display: 'flex', alignItems: 'center' }}>
+      {/* <Box className='actions-right' sx={{ display: 'flex', alignItems: 'center' }}>
         <LanguageDropdown settings={settings} saveSettings={saveSettings} />
         <ModeToggler settings={settings} saveSettings={saveSettings} />
         {auth.user && (
@@ -151,7 +151,7 @@ const AppBarContent = (props: Props) => {
             <UserDropdown settings={settings} />
           </>
         )}
-      </Box>
+      </Box> */}
     </Box>
   )
 }

@@ -30,13 +30,13 @@ const DataGrid = () => {
         title={
           <Typography variant='h4'>
             <LinkStyled href='https://mui.com/x/react-data-grid/' target='_blank'>
-              Ventas
+              Inventarios
             </LinkStyled>
           </Typography>
         }
         subtitle={
           <Typography sx={{ color: 'text.secondary' }}>
-            Modulo de ventas
+            Modulo de inventarios
           </Typography>
         }
       />

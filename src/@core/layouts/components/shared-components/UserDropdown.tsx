@@ -101,7 +101,7 @@ const UserDropdown = (props: Props) => {
       >
         <Avatar
           alt='John Doe'
-          src='/images/avatars/1.png'
+          src='/images/avatars/5.png'
           onClick={handleDropdownOpen}
           sx={{ width: 38, height: 38 }}
         />
@@ -124,16 +124,16 @@ const UserDropdown = (props: Props) => {
                 horizontal: 'right'
               }}
             >
-              <Avatar alt='John Doe' src='/images/avatars/1.png' sx={{ width: '2.5rem', height: '2.5rem' }} />
+              <Avatar alt='John Doe' src='/images/avatars/5.png' sx={{ width: '2.5rem', height: '2.5rem' }} />
             </Badge>
             <Box sx={{ display: 'flex', ml: 2.5, alignItems: 'flex-start', flexDirection: 'column' }}>
-              <Typography sx={{ fontWeight: 500 }}>John Doe</Typography>
+              <Typography sx={{ fontWeight: 500 }}>Junior Salinas </Typography>
               <Typography variant='body2'>Admin</Typography>
             </Box>
           </Box>
         </Box>
         <Divider sx={{ my: theme => `${theme.spacing(2)} !important` }} />
-        <MenuItemStyled sx={{ p: 0 }} onClick={() => handleDropdownClose('/pages/user-profile/profile')}>
+        {/*<MenuItemStyled sx={{ p: 0 }} onClick={() => handleDropdownClose('/pages/user-profile/profile')}>
           <Box sx={styles}>
             <Icon icon='tabler:user-check' />
             My Profile
@@ -170,7 +170,7 @@ const UserDropdown = (props: Props) => {
             Pricing
           </Box>
         </MenuItemStyled>
-        <Divider sx={{ my: theme => `${theme.spacing(2)} !important` }} />
+            <Divider sx={{ my: theme => `${theme.spacing(2)} !important` }} />*/}
         <MenuItemStyled sx={{ p: 0 }} onClick={handleLogout}>
           <Box sx={styles}>
             <Icon icon='tabler:logout' />

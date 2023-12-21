@@ -92,7 +92,7 @@ const columns: GridColDef[] = [
     flex: 0.2,
     type: 'date',
     minWidth: 120,
-    headerName: 'Date',
+    headerName: 'Fecha de creacion',
     field: 'start_date',
     valueGetter: params => new Date(params.value),
     renderCell: (params: GridRenderCellParams) => (
@@ -104,22 +104,22 @@ const columns: GridColDef[] = [
   {
     flex: 0.2,
     minWidth: 110,
-    field: 'salary',
-    headerName: 'Salary',
+    field: 'price',
+    headerName: 'Precio',
     renderCell: (params: GridRenderCellParams) => (
       <Typography variant='body2' sx={{ color: 'text.primary' }}>
-        {params.row.salary}
+        {params.row.price}
       </Typography>
     )
   },
   {
     flex: 0.125,
-    field: 'age',
+    field: 'stock',
     minWidth: 80,
-    headerName: 'Age',
+    headerName: 'Stock',
     renderCell: (params: GridRenderCellParams) => (
       <Typography variant='body2' sx={{ color: 'text.primary' }}>
-        {params.row.age}
+        {params.row.stock}
       </Typography>
     )
   },
@@ -172,7 +172,7 @@ const TableColumns = () => {
 
   return (
     <Card>
-      <CardHeader title='Registro de ventas' />
+      <CardHeader title='Control de inventarios' />
       <DataGrid
         autoHeight
         columns={columns}

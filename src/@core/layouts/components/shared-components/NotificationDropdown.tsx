@@ -228,7 +228,7 @@ const NotificationDropdown = (props: Props) => {
         >
           <Button fullWidth variant='contained' onClick={handleDropdownClose}>
             Read All Notifications
-          </Button>
+        </Button>
         </MenuItem>
       </Menu>
     </Fragment>

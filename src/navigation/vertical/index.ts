@@ -3,7 +3,7 @@ import { VerticalNavItemsType } from 'src/@core/layouts/types'
 
 const navigation = (): VerticalNavItemsType => {
   return [
-    {
+   /* {
       title: 'Dashboards',
       icon: 'tabler:smart-home',
       badgeContent: 'new',
@@ -463,11 +463,11 @@ const navigation = (): VerticalNavItemsType => {
           path: '/components/more'
         },
       ]
-    },
+    },*/
     {
-      sectionTitle: 'Forms & Tables'
+      sectionTitle: 'Formularios Logistica'
     },
-    {
+   /* {
       title: 'Form Elements',
       icon: 'tabler:toggle-left',
       children: [
@@ -544,12 +544,13 @@ const navigation = (): VerticalNavItemsType => {
       title: 'Table',
       icon: 'tabler:table',
       path: '/tables/mui'
-    },
+    },*/
     {
-      title: 'Mui DataGrid',
+      title: 'Inventarios',
       icon: 'tabler:layout-grid',
       path: '/tables/data-grid'
     },
+    /*
     {
       sectionTitle: 'Charts & Misc'
     },
@@ -618,7 +619,7 @@ const navigation = (): VerticalNavItemsType => {
           path: 'https://demos.pixinvent.com/vuexy-nextjs-admin-template/documentation'
         }
       ]
-    }
+    }*/
   ]
 }
 
